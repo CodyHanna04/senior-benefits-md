@@ -31,7 +31,7 @@ export default function Page(){
               </ul>
             </div>
             <div className="card">
-              <img src="/person-maze.jpg" alt="Two seniors in a maze" />
+              <img src="/maze2.jpg" alt="Two seniors in a maze" />
             </div>
           </div>
         </section>

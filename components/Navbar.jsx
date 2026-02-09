@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="contact">
           <div style={{ color: "#6e72a0" }}>Contact:</div>
           <div>
-            Phone/Text: <strong>443-613-3029</strong>
+            Phone/Text: <strong>443-608-4018</strong>
           </div>
           <div>
             Email:{" "}
