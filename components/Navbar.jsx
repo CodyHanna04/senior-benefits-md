@@ -6,15 +6,17 @@ export default function Navbar() {
     <div className="header">
       <div className="container header-top">
         {/* Make brand clickable to go home */}
-        <Link href="/" className="brand" style={{ textDecoration: "none" }}>
-          <Image
-            src="/hero.png"
+        <Link href="/" className="brand" style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: 'start' }}>
+          <div>
+            <Image
+            src="/sbs-logo.png"
             alt="Senior Benefit Solutions"
-            width={36}
-            height={36}
+            width={435}
+            height={80}
           />
+          </div>
           <div className="brand-title">
-            <span className="name">Senior Benefit Solutions</span>
+            {/* <span className="name">Senior Benefit Solutions</span> */}
             <span className="tagline">
               Medicare information and resources for seniors in the greater
               Baltimore, MD area
