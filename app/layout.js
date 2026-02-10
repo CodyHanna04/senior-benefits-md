@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/hero.png" type="image/png" />
+        <link rel="icon" href="/sbs-icon.png" type="image/png" />
       </head>
       <body className={`${inter.className} theme-sbs`}>{children}</body>
     </html>
