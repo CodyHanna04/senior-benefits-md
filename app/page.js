@@ -10,44 +10,30 @@ export default function Page(){
         {/* Purple hero banner */}
         <section className="hero">
           <div className="container">
-            <h1>Confused About Medicare? You’re Not Alone.</h1>
-            <p>If you’re turning 65 soon or are already on Medicare and unsure what to do next, you’re in the right place. Medicare choices can be confusing—and the decisions you make can have long-term financial and coverage consequences.
-I help individuals and couples understand their options and make confident Medicare decisions.
-</p>
+            <h1>Confused About Medicare? Let’s Make It Simple.</h1>
+            <p>If you’re turning 65 or already enrolled in Medicare and are unsure what to do next, you’re not alone.</p>
+            <p>Medicare involves important decisions. The choices you make can affect your costs, coverage, and flexibility for years to come.</p>
+            <p>I help you understand your options clearly so you can make confident, informed decisions.</p>
           </div>
         </section>
 
-        {/* Intro + image */}
+        {/* Medicare Guidance + image */}
         <section className="section">
           <div className="container grid grid-2" style={{alignItems:"start"}}>
             <div>
-              <p><strong>I can help</strong> with Medicare decisions about Supplemental Insurance Plans (also called Medigap Plans) and Medicare Advantage Plans.</p>
-              <p className="muted">I am:</p>
+              <h2 className="h-serif">Medicare Guidance — Clear, Personal, Unbiased</h2>
+              <p className="muted">I provide one-on-one guidance to help you:</p>
               <ul className="clean">
-                <li>An independent life and health insurance agent specializing in Medicare</li>
-                <li>Multi-licensed: representing a wide selection of Medicare insurance carriers</li>
-                <li>Local to Maryland and the Greater Baltimore Area</li>
-                <li>Over 35 years of experience with a variety of insurance products</li>
-                <li>Unbiased. I present several alternatives and let you decide</li>
-                <li>Able to give personal attention and help devise solutions tailored to your situation</li>
+                <li>Understand how Medicare works</li>
+                <li>Compare Medicare Supplement (Medigap) and Medicare Advantage plans</li>
+                <li>Review prescription drug coverage options</li>
+                <li>Evaluate costs, coverage, and long-term implications</li>
               </ul>
+              <p>You’ll receive straightforward explanations in plain language — without pressure.</p>
             </div>
             <div className="card">
               <img src="/maze2.jpg" alt="Two seniors in a maze" />
             </div>
-          </div>
-        </section>
-
-        {/* --- Ignorance is not bliss section --- */}
-        <section className="section" aria-labelledby="ignorance-heading">
-          <div className="container">
-            <h2 id="ignorance-heading" className="h-serif" style={{ marginBottom: 8 }}>
-              Ignorance is not bliss when it comes to Medicare . . .
-            </h2>
-            <p className="muted" style={{ maxWidth: 900 }}>
-              Making the wrong choices when joining (or switching) Medicare plans could cost you a lot of money
-              and could permanently cut off options for some coverage. Avoid making choices you may regret later!
-            </p>
           </div>
         </section>
 
@@ -57,18 +43,81 @@ I help individuals and couples understand their options and make confident Medic
             <article className="card" style={{textAlign:"center"}}>
               <h3 className="h-serif" style={{color:"var(--brand-blue)"}}>Attend a Medicare Workshop</h3>
               <p className="muted">“This workshop was much easier to understand than other sessions we’ve attended.”<br />"Clear, comprehensive, well-organized."<br />"Wish I’d heard this info several years ago!"</p>
-              <a href="/workshops" className="btn" style={{marginTop:8}}>Learn More</a>
+              <a href="/live-workshop" className="btn" style={{marginTop:8}}>Learn more</a>
             </article>
             <article className="card" style={{textAlign:"center"}}>
               <h3 className="h-serif" style={{color:"var(--brand-blue)"}}>Request one-on-one help</h3>
               <p className="muted">By phone or in-person. Get clear answers specific to you.</p>
-              <a href="/forms/one-on-one" className="btn" style={{marginTop:8}}>Learn More</a>
+              <a href="/forms/one-on-one" className="btn" style={{marginTop:8}}>Learn more</a>
             </article>
             <article className="card" style={{textAlign:"center"}}>
               <h3 className="h-serif" style={{color:"var(--brand-blue)"}}>Request my Guide to Medicare</h3>
               <p className="muted">An easy-to-understand guide to get you started.</p>
-              <a href="/forms/medicare-guide" className="btn" style={{marginTop:8}}>Learn More</a>
+              <a href="/forms/medicare-guide" className="btn" style={{marginTop:8}}>Learn more</a>
             </article>
+          </div>
+        </section>
+
+        {/* Why Clients Choose Me */}
+        <section className="section">
+          <div className="container">
+            <h2 className="h-serif">Why Clients Choose Me</h2>
+            <div className="rule"></div>
+            <div className="gw-help-area">
+              <ul>
+              <li><strong>Independent Medicare Specialist</strong><br />Licensed life and health insurance agent focused on Medicare planning.</li>
+              <li><strong>Multiple Carriers</strong><br />Access to a wide range of Medicare insurance companies.</li>
+              <li><strong>Local to Maryland</strong><br />Serving the Greater Baltimore area.</li>
+              <li><strong>35+ Years of Insurance Experience</strong><br />Providing insurance solutions with integrity since 1983.</li>
+              <li><strong>Objective Guidance</strong><br />I explain your options and the trade-offs so you can decide what fits your needs.</li>
+              <li><strong>No Cost for My Help</strong><br />If I assist with enrollment, I’m paid by the insurance company — not by you. Your premium is the same whether you enroll with me or on your own.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      {/* Why Getting Medicare Right Matters */}
+        <section className="section">
+          <div className="container">
+            <h2 className="h-serif">Why Getting Medicare Right Matters</h2>
+            <div className="rule"></div>
+            <div className="gw-help-area">
+             <p className="muted">Certain Medicare decisions can:</p>
+              <ul>
+              <li>Create permanent late enrollment penalties</li>
+              <li>Limit future coverage options</li>
+              <li>Increase out-of-pocket costs</li>
+              </ul>
+              <p className="muted">Understanding your choices before you enroll — or before you switch plans — can help protect both your healthcare access and your finances.</p>
+            </div>
+          </div>
+        </section>
+
+      {/* Schedule review */}
+        <section className="section">
+          <div className="container">
+            <h2 className="h-serif">Schedule a Medicare Review</h2>
+            <div className="rule"></div>
+            <div className="gw-help-area">
+             <p className="muted">If you’re:</p>
+             <ul>
+                <li>Turning 65</li>
+                <li>New to Medicare</li>
+                <li>Leaving employer coverage</li>
+                <li>Reviewing your current plan</li>
+            </ul>
+            <p>I’m here to help.</p>
+            <h3 style={{color:"var(--brand-blue)"}}>What you can expect:</h3>
+            <ul>
+              <li>A personalized Medicare review</li>
+              <li>Clear answers to your questions</li>
+              <li>Guidance tailored to your health needs and budget</li>
+              <li>No pressure</li>
+            </ul>
+            <div><a href="tel:+14436084018" className="none" style={{marginTop:8}}>📞 Call to schedule a consultation</a></div>
+            <div><a href="/forms/one-on-one" className="none" style={{marginTop:8}}>📅 Or request an appointment online</a></div>
+            <p>Make your Medicare decisions with clarity and confidence.</p>
+            </div>
           </div>
         </section>
 
@@ -86,83 +135,6 @@ I help individuals and couples understand their options and make confident Medic
                 <h3 className="h-serif" style={{marginBottom:6}}>Medicare Advantage Plans</h3>
                 <p className="muted">CareFirst BlueCross Blue Shield of Maryland, Aetna, Alterwood, Cigna Healthcare, Humana, Johns Hopkins Medicare Advantage plan, Kaiser Permanente, United Healthcare (AARP).</p>
               </div>
-            </div>
-          </div>
-        </section>
-        {/* Help column */}
-        <section className="section">
-          <div className="container">
-            <h2 className="h-serif">How I Can Help</h2>
-            <div className="rule"></div>
-            <div className="gw-help-area">
-             <p className="muted">I provide guidance on:</p>
-              <ul>
-              <li>Understanding and navigating Medicare</li>
-              <li>Medicare Supplement (Medigap) plans</li>
-              <li>Medicare Advantage plans</li>
-              <li>Choosing prescription plans</li>
-              </ul>
-              <p className="muted">I explain how each option works, compare costs and benefits, and help you determine which coverage best fits your health needs and budget.</p>
-            </div>
-          </div>
-        </section>
-
-        {/* work with me column */}
-        <section className="section">
-          <div className="container">
-            <h2 className="h-serif">Why Work With Me</h2>
-            <div className="rule"></div>
-            <div className="gw-help-area">
-              <ul>
-              <li><strong>Independent Medicare specialist</strong><br />Licensed life and health insurance agent focused on Medicare.</li>
-              <li><strong>Multiple insurance carriers</strong><br />I represent a wide selection of Medicare insurance companies.</li>
-              <li><strong>Local expertise</strong><br />Serving Maryland and the Greater Baltimore Area.</li>
-              <li><strong>35+ years of experience</strong><br />Extensive background with Medicare and other insurance products.</li>
-              <li><strong>Unbiased guidance</strong><br />I present several options and explain the pros and cons—you make the decision.</li>
-              <li><strong>Personalized service</strong><br />Individual attention and solutions tailored to your unique situation.</li>
-              <li><strong>No cost to you</strong><br />If I assist you with enrollment, I am compensated by the insurance company--not by you.  Your premium is exactly the same whether you work with me or enroll on your own.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-      {/* right matters column */}
-        <section className="section">
-          <div className="container">
-            <h2 className="h-serif">Why Getting Medicare Right Matters</h2>
-            <div className="rule"></div>
-            <div className="gw-help-area">
-             <p className="muted">When it comes to Medicare, ignorance is not bliss.</p>
-             <p className="muted">Making the wrong choice when first enrolling—or when switching plans—can:</p>
-              <ul>
-              <li>Cost you thousands of dollars over time</li>
-              <li>Result in permanent penalties</li>
-              <li>Limit or eliminate future coverage options</li>
-              </ul>
-              <p className="muted">My goal is to help you avoid costly mistakes and choose coverage you can feel confident about—now and in the years ahead.</p>
-            </div>
-          </div>
-        </section>
-
-      {/* next steps column */}
-        <section className="section">
-          <div className="container">
-            <h2 className="h-serif">Take the Next Step — Get Clear, Confident Medicare Guidance</h2>
-            <div className="rule"></div>
-            <div className="gw-help-area">
-             <p className="muted">You don’t have to figure out Medicare on your own.</p>
-             <p className="muted">If you’re turning 65, new to Medicare, or reviewing your current coverage, I can help you understand your options and make informed decisions.</p>
-             <h3 style={{color:"var(--brand-blue)"}}>What to Expect</h3>
-             <ul>
-                <li>A personalized Medicare review</li>
-                <li>Clear explanations in plain language</li>
-                <li>No pressure</li>
-                <li>Guidance tailored to your health needs and budget</li>
-            </ul>
-            <h3 style={{color:"var(--brand-blue)"}}>Schedule Your Medicare Consultation</h3>
-            <div><a href="/forms/one-on-one" className="none" style={{marginTop:8}}>Call today to schedule a free Medicare consultation</a></div>
-            <div><a href="mailto:david@seniorbenefitsmd.com" className="none" style={{marginTop:8}}>Or request an appointment online at your convenience</a></div>
-            <p>Making the right Medicare choices now can help protect your healthcare options and your finances for years to come.</p>
             </div>
           </div>
         </section>

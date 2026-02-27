@@ -18,14 +18,15 @@ export default function Navbar() {
           <div className="brand-title">
             {/* <span className="name">Senior Benefit Solutions</span> */}
             <span className="tagline">
-              Medicare information and resources for seniors in the greater
-              Baltimore, MD area
+              Medicare information, resources, and enrollment for seniors in the Greater Baltimore, MD Area.
             </span>
           </div>
         </Link>
 
         <div className="contact">
           <div style={{ color: "#6e72a0" }}>Contact:</div>
+          <div>David Wagenheim</div>
+          <div>Medicare Specialist, Independent MD Life and Health agent</div>
           <div>
             Phone/Text: <strong>443-608-4018</strong>
           </div>
